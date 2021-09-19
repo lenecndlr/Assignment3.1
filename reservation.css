@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./reservation.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logo img{
+    float: left;
+    width: 80px;
+    height: auto;
+    align-items: baseline;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+.nav-links ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.banner{
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);   
+    padding-top: 70%px;
+}
+.container-form{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-49%, -20%);
+}
+form{
+    width: 250px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8%;
+    text-align: center;
+    display: grid;
+    grid-row-gap: 20px;
+}
+.container-form h2{
+    font-size: 40px;
+    font-family: 'Birthstone Bounce', cursive;
+    color: black;
+}
+form p{
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+}
+.form-field{
+    display: flex;
+    justify-content: space-between;
+}
+input, select{
+    pad: 10px 15px;
+}
+.btn{
+    background-color: burlywood;
+    color: #fff;
+    padding: 10px 20px; 
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    box-shadow: 7px 10px 12px; color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: all;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+}
+.btn:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 10px 12px 15px; color: rgba(0,0,0,0.5);
+}
